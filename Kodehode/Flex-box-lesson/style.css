@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height: 100vh;
+  flex-direction: row;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* flex-wrap makes elements scale with window size and moves to next line */
+/* gap makes the space between flex elements have gap */
+
+.box {
+  height: 100px;
+  width: 150px;
+  min-width: 80px;
+  border: 1px solid black;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  margin: 20px;
+  box-shadow: 4px 4px 0px 0px black;
+  transition: all 0.275s ease;
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* transition gives delay when transforming */
+/* box shadow vertical, horizontal, blur, padding */
+/* display flex makes element and child flex elements */
+/* justift content makes flex elements align to center horizontally*/
+/* align items makes flex elements align to center vertically*/
+
+.box:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}
+/* transform scale makes button % size bigger/smaller */
+
+.box:active {
+    transform: scale(0.90);
+}
+
+
+.box p {
+  padding: 5px 10px;
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+}
+
+.box1 {
+  background-color: red;
+  flex: 1;
+}
+.box2 {
+  background-color: blue;
+  flex: 2;
+}
+.box3 {
+  background-color: blueviolet;
+  flex: 1.5;
+}
+.box4 {
+  background-color: aqua;
+  flex: 2.5;
+}
+.box5 {
+  background-color: aquamarine;
+  flex: 1.2;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* space between items are evenly distributed in the line */
+/* first item is on the start line, last item on the end line */
+
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
