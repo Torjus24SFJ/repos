@@ -1,44 +1,22 @@
-// console.log(1 % 2);
-// console.log(2 % 2);
-// console.log(10%5);
-// console.log(68574%5);
+// var string ="this is cool";
+// string = string.toUpperCase();
+// console.log(string + "!");
 
-// console.log(5%2);
+// Complete the function below:
 
-// if (50%2 === 0) {
-//     console.log("noe")
-// }
-//     else {
-//         console.log("noe annet")
-//     }
+// The function should take in 2 parameters:
 
-// const Hello = "Hello World!"
+//  - A name (string)
+//  - An hour of the day (number)
 
-// if (hour = 0) {
-//     return "invalid time" 
-// }
-// else if(hour >= 0 && hour >= 5) {
-    
-// }
-// else if(hour) {
+// The function should return:
+// "Invalid time" if the hour received is less than 0
+// "Good night (name received)" if the hour received is 0-5
+// "Good morning (name received)" if the hour received is 6-11
+// "Good day (name received)" if the hour received is 12-17
+// "Good evening (name received)" if the hour received is 18-23
+// "Invalid time" if the hour received is greater than 23
 
-// }
-// else if(hour) {
 
-// }
-// else {
-//     return "invalid time"
-// }
-
-const colors = ["red", "green", "blue", "Yellow"]
-
-colors.pop()
-
-function removeFirstAndLastIndex() {
-
-}
-
-const something = "javascript is hard"
-console.log(something)
 
     
