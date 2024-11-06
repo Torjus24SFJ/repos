@@ -51,9 +51,9 @@ console.log(
 
 function giveCompliments() {
   const compliments = [
-    "Du er tøff type du",
+    "Veldig bra",
     "Det var lompent gjort",
-    "Mamma sier at jeg er kul",
+    "Du er fantastisk",
   ];
 
   const randomIndex = Math.round(Math.random() * compliments.length - 1);
@@ -63,3 +63,11 @@ function giveCompliments() {
 }
 
 console.log(giveCompliments());
+
+function syntax() {
+
+}
+
+const arrowSyntax = () => {
+
+}

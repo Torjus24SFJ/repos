@@ -9,9 +9,8 @@ body {
 
 .container {
   display: grid;
-  /* grid-template-columns: 50px 50px 50px 50px; */
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
     "header header header header"
     "top-nav top-nav top-nav side-nav"
     "search search search search";
@@ -35,4 +34,22 @@ body {
 .search {
   border: 2px solid black;
   grid-area: search;
+}
+
+.images {
+  display: flex;
+  width: 962px;
+  height: 324px;
+  margin-top: 10px;
+  margin-left: 26px;
+  gap: 14px;
+}
+
+.images2 {
+  display: flex;
+  width: 474px;
+  height: 170px;
+  margin-top: 10px;
+  margin-left: 26px;
+  gap: 14px;
 }
