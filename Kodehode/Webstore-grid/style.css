@@ -1,8 +1,38 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    min-height: 150vh;
-  }
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 150vh;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 50px 50px 50px 50px; */
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "top-nav top-nav top-nav side-nav"
+    "search search search search";
+}
+
+.header {
+  border: 2px solid black;
+  grid-area: header;
+}
+
+.top-nav {
+  border: 2px solid black;
+  grid-area: top-nav;
+}
+
+.side-nav {
+  border: 2px solid black;
+  grid-area: side-nav;
+}
+
+.search {
+  border: 2px solid black;
+  grid-area: search;
+}
