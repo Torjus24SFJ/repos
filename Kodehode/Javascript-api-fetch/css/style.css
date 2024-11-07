@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00ffff;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#content .movie-card {
+    height: 400px;
+    width: 300px;
+    min-height: 50vh;
+    padding-top: 26px;
+    /* border: 5px solid orange; */
+}
+
+#content .movie-card img {
+    height: 350px;
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+h5 {
+    color:rgb(255, 0, 0);
+}
+
