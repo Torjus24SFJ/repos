@@ -9,8 +9,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-transform: capitalize;
 }
+
+/* h2:first-letter {
+    text-transform: uppercase;
+} */
 
 /* body {
     background-color: #00ffff;
