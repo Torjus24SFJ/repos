@@ -1,3 +1,4 @@
+//Ghibli Api Fetch
 
 // const content = document.getElementById("content")
 
@@ -26,6 +27,9 @@
 
 // };
 // getData();
+
+
+//Pokemon Api Fetch
 
 const content = document.getElementById("content")
 
