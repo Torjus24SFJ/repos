@@ -19,7 +19,7 @@ class Library
         return books;
     }
 
-    public Book LendBook(string title)
+    public Book? LendBook(string title)
     {
         Book? book = books.Find((book) =>
         {

@@ -7,7 +7,6 @@
 
 // Console.WriteLine("Echo " + userInput);
 
-using System.Runtime.InteropServices.Marshalling;
 
 Library library = new Library();
 
@@ -51,21 +50,35 @@ while (runProgram)
         {
             Console.WriteLine(book.Title);
         }
-
     }
     // Lend out a book
     else if (userInput == "lend")
     {
         Console.WriteLine("Lending a book");
         string? wantedBookTitle = Console.ReadLine();
+
+        if (wantedBookTitle == null)
+        {
+            continue;
+        }
+
         Book? book = library.LendBook(wantedBookTitle);
-        Console.WriteLine("Lending book: " + book.Title);
+
+        if (book == null)
+        {
+            Console.WriteLine("No book with title found " + wantedBookTitle);
+        }
+        else {
+            Console.WriteLine("Lending book: " + book.Title);
+        }
     }
+
     // Return book
     else if (userInput == "return")
     {
         Console.WriteLine("Returning a book");
     }
+    // Exit
     else if (userInput == "exit")
     {
         runProgram = false;
