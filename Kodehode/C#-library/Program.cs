@@ -1,11 +1,12 @@
-﻿// Les av bruker input
+﻿// dotnet new console (create new project c#)
+// Les av bruker input
 
 // Console.WriteLine("Write something: ");
 // string? userInput = Console.ReadLine();
 
 // Ekko tilbake det bruker skriver
 
-// Console.WriteLine("Echo " + userInput);
+// Console.WriteLine("Echo " + userInput);Li
 
 
 Library library = new Library();

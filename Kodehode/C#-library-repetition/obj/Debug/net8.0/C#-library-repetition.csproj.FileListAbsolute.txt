@@ -1,0 +1,15 @@
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\bin\Debug\net8.0\C#-library-repetition.exe
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\bin\Debug\net8.0\C#-library-repetition.deps.json
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\bin\Debug\net8.0\C#-library-repetition.runtimeconfig.json
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\bin\Debug\net8.0\C#-library-repetition.dll
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\bin\Debug\net8.0\C#-library-repetition.pdb
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.AssemblyInfoInputs.cache
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.AssemblyInfo.cs
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.csproj.CoreCompileInputs.cache
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.sourcelink.json
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.dll
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\refint\C#-library-repetition.dll
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.pdb
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\C#-library-repetition.genruntimeconfig.cache
+C:\Users\Torju\source\repos\Kodehode\C#-library-repetition\obj\Debug\net8.0\ref\C#-library-repetition.dll

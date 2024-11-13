@@ -2,9 +2,9 @@ using System.Reflection;
 
 class Book 
 {
-    string? Title;
-    string? Author;
-    DateTime Published;
+    public string Title;
+    public string Author;
+    public DateTime Published;
 
     //Contructor
     public Book(string title, string author, DateTime published) {

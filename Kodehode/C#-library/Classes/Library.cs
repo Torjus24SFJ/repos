@@ -14,6 +14,7 @@ class Library
         books.Add(newBook);
     }
 
+    // List out all the books
     public List<Book> ListAvailableBooks()
     {
         return books;

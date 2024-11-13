@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#-library-repetition")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dfa642cec0356509cf0b9a0d281659f65b38848")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b56e3d1bdf03dd4f42ed308610c878d904285fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#-library-repetition")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#-library-repetition")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
