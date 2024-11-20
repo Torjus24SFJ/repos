@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  padding: var(--headerPadding);
+  gap: 16px;
+}
+
+header div.top-header {
+  display: flex;
+  justify-content: end;
+}
+
+header div.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div.bottom-header figure {
+  height: 70px;
+}
+
+header div.bottom-header figure img {
+  height: 100%;
+}
+
+header div.bottom-header nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+

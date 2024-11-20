@@ -5,12 +5,17 @@ Library library = new Library();
 
 Book martian = new Book("Martian", "Jack Black", new DateTime(2002, 10, 10));
 Book foundation = new Book("Foundation", "Jane Doe", new DateTime(1940, 04, 05));
-Book LordOfTheRings = new Book("Lord of the rings", "JRR Tolken", new DateTime(1954, 24, 07));
+Book LordOfTheRings = new Book("LordOfTheRings", "JRR Tolken", new DateTime(1954, 12, 24));
 library.AddNewBook(martian);
 library.AddNewBook(foundation);
-
+library.AddNewBook(LordOfTheRings);
 
 app.MapGet("/book", () =>
+{
+  return library.ListAllBooks();
+});
+
+app.MapGet("/book/available", () =>
 {
   return library.ListAvailableBooks();
 });

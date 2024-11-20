@@ -12,6 +12,11 @@ class Library
     books.Add(newBook);
   }
 
+  public List<Book> ListAllBooks()
+  {
+    return books;
+  }
+
   public List<Book> ListAvailableBooks()
   {
     // Filtrer ut alle utlånte bøker

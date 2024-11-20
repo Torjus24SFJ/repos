@@ -1,0 +1,52 @@
+@import "./header.css";
+@import "./button.css";
+@import "./hero.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
+  --primary: #4d4bbd;
+  --secondary: #9e9efc;
+  --tertiery: #4e516e;
+
+  --black: #0e0e0e;
+  --white: #fdfdff;
+  --grey: #35363f;
+  --greyTransparent: #35363f5a;
+
+  --headerPadding: 16px 64px;
+} */
+
+body.light {
+  --primary: #4d4bbd;
+  --secondary: #9e9efc;
+  --tertiery: #4e516e;
+
+  --black: #040405;
+  --white: #fdfdff;
+  --grey: #35363f;
+  --greyTransparent: #35363f2d;
+
+  --headerPadding: 16px 64px;
+}
+
+body.dark {
+  --primary: #9e9efc;
+  --secondary: #4d4bbd;
+  --tertiery: #ffffff;
+
+  --black: #fdfdff;
+  --white: #040405;
+  --grey: #bcbccd;
+  --greyTransparent: #35363f2d;
+
+  --headerPadding: 16px 64px;
+}
+
+body {
+    background-color: var(--white);
+}
