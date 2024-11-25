@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+    <title>Random Cat</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="monthly.html">Top Monthly</a></li>
+            <li><a href="https://www.reddit.com/r/Catswithjobs/" target="_blank">Reddit</a></li>
+            <li><a href="random.html" id="random-img">Random</a></li>
+          </ul>
+        </div>
+      <div class="header">
+        <h1>Here is your random hardworking cat!</h1>
+      </div>
+      <div class="images-random">
+        <img id="random-image" src="" alt="Random Cat" />
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const imageUrl = urlParams.get("image");
+        
+        if (imageUrl) {
+          document.getElementById("random-image").src = decodeURIComponent(imageUrl);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js" defer></script>
     <title>Cats with jobs</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="nav-bar">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Top Monthly</a></li>
-                <li><a href="https://www.reddit.com/r/Catswithjobs/" target="_blank">Reddit</a></li>
-                <li><a href="">Random</a></li>
-            </ul>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="monthly.html">Top Monthly</a></li>
+          <li>
+            <a href="https://www.reddit.com/r/Catswithjobs/" target="_blank"
+              >Reddit</a
+            >
+          </li>
+          <li><a href="random.html" id="random-img">Random</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <h1>Here are some cats with various jobs!</h1>
+      </div>
+      <div class="images">
+        <div>
+          <h3>Review booster</h3>
+          <img src="./images/airbnb-cat.PNG" alt="" />
         </div>
-        <div class="header">
-            <h1>Here are some cats with various jobs!</h1>
+        <div>
+          <h3>Pest control</h3>
+          <img src="./images/pestcontrol-cat.PNG" alt="" />
         </div>
-        <div class="images">
-            <h3>Review booster</h3><img src="./images/airbnb-cat.PNG" alt="">
-            <h3>Foreign relations</h3><img src="./images/foreignreleations-cat.PNG" alt="">
-            <h3>Pest control</h3><img src="./images/pestcontrol-cat.PNG" alt="">
-            <h3>Prime minister</h3><img src="./images/primeminister-cat.PNG" alt="">
-            <h3>Security gard</h3><img src="./images/security-cat.PNG" alt="">
-            <h3>Shopper supervisor</h3><img src="./images/shopsupervisor-cat.PNG" alt="">
-            <h3>International spy</h3><img src="./images/spy-cat.PNG" alt="">
+        <div>
+          <h3>Prime minister</h3>
+          <img src="./images/primeminister-cat.PNG" alt="" />
         </div>
+        <div>
+          <h3>Foreign relations</h3>
+          <img src="./images/foreignreleations-cat.PNG" alt="" />
+        </div>
+        <div>
+          <h3>Security gard</h3>
+          <img src="./images/security-cat.PNG" alt="" />
+        </div>
+        <div>
+          <h3>Shopper supervisor</h3>
+          <img src="./images/shopsupervisor-cat.PNG" alt="" />
+        </div>
+        <div>
+          <h3>International spy</h3>
+          <img src="./images/spy-cat.PNG" alt="" />
+        </div>
+      </div>
     </div>
-</body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const imageUrl = urlParams.get("image");
+        if (imageUrl) {
+          document.getElementById("random-image").src =
+            decodeURIComponent(imageUrl);
+        }
+      });
+    </script>
+  </body>
 </html>
