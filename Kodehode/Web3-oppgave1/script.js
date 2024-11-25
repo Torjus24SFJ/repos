@@ -10,7 +10,8 @@ const guessNumber = parseInt(document.getElementById("number") .value, 10);
 
 if (guessNumber === randomNumber)
     {
-        document.getElementById("result").textContent = "Your number is correct"
+        window.location.href= "winner.html"
+        // document.getElementById("result").textContent = "Your number is correct"
     }
     else if(guessNumber > randomNumber) {
         document.getElementById("result").textContent = "The correct number is lower"
@@ -23,6 +24,7 @@ if (guessNumber === randomNumber)
         document.getElementById("result").textContent = "This is not a number"
     }
 
-    document.getElementById("counter").textContent = counter++;
+    counter++;
+    document.getElementById("counter").textContent = counter;
     console.log(`Number of guesses: ${counter}`);
 });

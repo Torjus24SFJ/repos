@@ -24,3 +24,17 @@ div.wrapper h1 {
     padding-top: 10px;
 }
 
+.winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    margin-top: 100px;
+}
+
+.winner-background {
+    background-color: black;
+}
+
+
+
