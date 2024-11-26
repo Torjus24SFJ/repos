@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="/images/cat-Icon.png">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Gallery</li>
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Contact</li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="full-img" id="fullImgBox">
+            <img src="images/airbnb-cat.PNG" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="/images/airbnb-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/foreignreleations-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/pestcontrol-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/primeminister-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/security-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/shopsupervisor-cat.PNG" onclick="openFullImg(this.src)">
+            <img src="/images/spy-cat.PNG" onclick="openFullImg(this.src)">
+        </div>
+    </div>
+
+    <script>
+        const fullImgBox = document.getElementById("fullImgBox")
+        const fullImg = document.getElementById("fullImg")
+
+        function openFullImg(picture){
+            fullImgBox.style.display = "flex";
+            fullImg.src = picture;
+        }
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+</body>
+</body>
+</html>
