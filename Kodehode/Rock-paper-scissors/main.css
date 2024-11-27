@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #202020;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.header, #winner, #computerPick {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin: 30px;
+}
+
+button {
+    background-color: #101010;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
