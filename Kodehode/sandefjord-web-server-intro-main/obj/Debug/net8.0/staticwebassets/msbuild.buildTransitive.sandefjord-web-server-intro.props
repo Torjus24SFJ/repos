@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\sandefjord-web-server-intro.props" />
-</Project>
