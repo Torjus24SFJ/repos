@@ -1,0 +1,15 @@
+C:\Users\Torju\source\repos\Kodehode\C#-start\bin\Debug\net8.0\C#-start.exe
+C:\Users\Torju\source\repos\Kodehode\C#-start\bin\Debug\net8.0\C#-start.deps.json
+C:\Users\Torju\source\repos\Kodehode\C#-start\bin\Debug\net8.0\C#-start.runtimeconfig.json
+C:\Users\Torju\source\repos\Kodehode\C#-start\bin\Debug\net8.0\C#-start.dll
+C:\Users\Torju\source\repos\Kodehode\C#-start\bin\Debug\net8.0\C#-start.pdb
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.AssemblyInfoInputs.cache
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.AssemblyInfo.cs
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.csproj.CoreCompileInputs.cache
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.sourcelink.json
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.dll
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\refint\C#-start.dll
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.pdb
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\C#-start.genruntimeconfig.cache
+C:\Users\Torju\source\repos\Kodehode\C#-start\obj\Debug\net8.0\ref\C#-start.dll

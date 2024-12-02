@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff6f6;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+div.wrapper h1 {
+    padding: 30px;
+}
+
+#result {
+    padding-top: 10px;
+}
+
+.winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    margin-top: 100px;
+}
+
+.winner-background {
+    background-color: black;
+}
+
+
+

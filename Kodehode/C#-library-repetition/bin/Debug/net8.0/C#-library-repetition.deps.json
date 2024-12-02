@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "C#-library-repetition/1.0.0": {
+        "runtime": {
+          "C#-library-repetition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C#-library-repetition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

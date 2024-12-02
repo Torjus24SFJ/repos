@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #FFF;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-transform: capitalize;
+}
+
+/* h2:first-letter {
+    text-transform: uppercase;
+} */
+
+/* body {
+    background-color: #00ffff;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#content .movie-card {
+    height: 400px;
+    width: 300px;
+    min-height: 50vh;
+    padding-top: 26px;
+    margin-top: 20px;
+}
+
+#content .movie-card img {
+    height: 350px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+h5 {
+    color:rgb(255, 0, 0);
+}
+
+#year {
+    color:grey;
+}
+
+ */

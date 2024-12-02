@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head-content">
+            <div class="logo"><img id="hlogo" src="/img/gallery_logo_trs_w.png" alt=""></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nature.html">Nature</a></li>
+                    <li><a href="space.html">Space</a></li>
+                    <li><a href="ocean.html">Ocean</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="gallery">
+            <div class="full-img" id="fullImgBox">
+                <img src="/img/eagle.jpg" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="img-gallery">
+                <img id="gal-img" src="/img/eagle.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/elephant.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/red-panda.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/tiger.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/tiger.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/tiger.jpg" onclick="openFullImg(this.src)">
+                <img id="gal-img" src="/img/tiger.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </div>
+    </div>
+<script>
+    const fullImgBox = document.getElementById("fullImgBox")
+    const fullImg = document.getElementById("fullImg")
+    
+    function openFullImg(picture){
+        fullImgBox.style.display = "flex";
+        fullImg.src = picture;
+    }
+    
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+</body>
+</html>
